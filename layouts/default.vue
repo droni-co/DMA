@@ -1,5 +1,12 @@
 <template>
-  <div class="bg-slate-200 flex flex-col min-h-screen dark:bg-slate-800 dark:text-slate-100">
+  <div class="
+    bg-slate-200
+    flex flex-col
+    min-h-screen
+    bg-gradient-to-b
+    dark:from-slate-900
+    dark:to-slate-950
+    dark:text-slate-100">
     <main class="grow">
       <slot />
     </main>

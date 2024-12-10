@@ -1,7 +1,7 @@
 <template>
   <div class="md:flex container mx-auto">
     <div class="text-center md:w-1/2">
-      <img src="~/assets/img/logo.png" alt="DMA" class="mx-auto" />
+      <img src="~/assets/img/icono.svg" alt="DMA" class="mx-auto p-20" />
     </div>
     <div class="py-20 text-slate-800 max-w-[500px] dark:text-slate-200">
       <h2 class="text-4xl font-bold text-balance">
@@ -39,7 +39,6 @@
           Inscribirme
         </UiFormButton>
       </form>
-      {{ lead }}
     </div>
   </div>
   <div class="container mx-auto my-8">
