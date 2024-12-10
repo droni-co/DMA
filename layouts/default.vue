@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-200 flex flex-col min-h-screen">
+  <div class="bg-slate-200 flex flex-col min-h-screen dark:bg-slate-800 dark:text-slate-100">
     <main class="grow">
       <slot />
     </main>
