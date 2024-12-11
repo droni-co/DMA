@@ -4,8 +4,8 @@
       <img src="~/assets/img/icono.svg" alt="DMA" class="mx-auto p-20" />
     </div>
     <div class="py-20 text-slate-800 max-w-[500px] dark:text-slate-200">
-      <h2 class="text-4xl font-bold text-balance">
-        Bachillerato virtual DMA
+      <h2 class="text-4xl font-bold uppercase text-balance drop-shadow-lg">
+        Bachillerato virtual
       </h2>
       <p class="text-slate-400">
         Estudia desde cualquier lugar.
@@ -49,31 +49,36 @@
       <div class="p-4 text-center">
         <i class="mdi mdi-account-plus-outline text-5xl"></i>
         <h3 class="text-xl font-bold text-balance">Inscríbete</h3>
-        <p>
+        <p class="text-balance">
           Regístrate en la plataforma y selecciona el plan de estudios que más se ajuste a tus necesidades.
         </p>
       </div>
       <div class="p-4 text-center">
         <i class="mdi mdi-cast-education text-5xl"></i>
         <h3 class="text-xl font-bold text-balance">Estudia</h3>
-        <p>
+        <p class="text-balance">
           Accede a los contenidos de las materias y estudia a tu propio ritmo.
         </p>
       </div>
       <div class="p-4 text-center">
         <i class="mdi mdi-book-education-outline text-5xl"></i>
         <h3 class="text-xl font-bold text-balance">Certifícate</h3>
-        <p>
+        <p class="text-balance">
           Al finalizar tus estudios, obtén tu certificado de bachillerato.
         </p>
       </div>
     </div>
   </div>
   <div class="container mx-auto flex">
+    <div class="w-1/2 p-8">
+      <iframe class="w-full aspect-video shadow-lg border-8 border-slate-300 shadow-lg" src="https://www.youtube.com/embed/lQmjUTzsrj4?si=A6I2uuHqO3KcHaiD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="w-1/2">
-      <div class="p-5">
-        <iframe class="w-full aspect-video shadow-lg" src="https://www.youtube.com/embed/lQmjUTzsrj4?si=A6I2uuHqO3KcHaiD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <ol>
+        <li class="block p-2 border">
+          Contamos con resolución de la Secretaría de Educación de Bogotá. y el Ministerio de Educación Nacional.
+        </li>
+      </ol>
     </div>
   </div>
 </template>
